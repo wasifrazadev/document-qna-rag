@@ -1,0 +1,16 @@
+# API
+fastapi>=0.110
+uvicorn[standard]>=0.29
+
+# RAG
+langchain-core>=0.3
+langchain-community>=0.3
+langchain-huggingface>=0.1
+langchain-mistralai>=0.2
+langchain-text-splitters>=0.3
+chromadb>=0.5
+sentence-transformers>=3.0
+pypdf>=4.0
+
+# Utils
+python-dotenv>=1.0

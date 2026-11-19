@@ -1,0 +1,24 @@
+# Secrets
+.env
+
+# Vector database (regenerate with scripts.ingest)
+chroma-db/
+
+# Your documents (may be private/large). Remove this line to commit PDFs.
+docs/*.pdf
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Editors / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
